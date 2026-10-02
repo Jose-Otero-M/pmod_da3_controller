@@ -3,7 +3,7 @@
 set script_dir [file dirname [file normalize [info script]]]
 set root_dir   [file normalize "$script_dir/.."]
 
-set project_name "srl_cleaning"
+set project_name "da3_controller"
 set project_dir  "$root_dir/vivado_project"
 
 # Basys 3 FPGA part
@@ -89,7 +89,7 @@ if {[llength $xdc_files] > 0} {
 # Set top module
 # --------------------------------------------------------------------
 
-set_property top clear_srl [current_fileset]
+set_property top da3_controller [current_fileset]
 
 update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
