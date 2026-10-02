@@ -1,0 +1,40 @@
+# Vivado generated files
+.Xil/
+vivado_project/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.gen/
+
+# Vivado logs and temporary files
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+
+# Generated bitstreams and reports
+*.bit
+*.bin
+*.ltx
+*.dcp
+*.rpt
+*.mcs
+*.mmi
+
+# Simulation files
+xsim.dir/
+*.vcd
+*.fst
+
+# Temporary files
+*~
+*.bak
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
